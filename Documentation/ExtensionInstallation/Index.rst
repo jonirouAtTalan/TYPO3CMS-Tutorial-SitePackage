@@ -48,7 +48,7 @@ Add the following lines:
          }
       ],
       "require": {
-         "typo3/cms-core": "^13.1",
+         "typo3/cms-core": "^13.4",
          "..." : "..."
       },
       "..." : "..."
