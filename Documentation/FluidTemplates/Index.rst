@@ -19,7 +19,7 @@ This chapter is based on the following steps:
 *   The assets should be in the correct locations:
     :ref:`Copy the assets of the theme <t3sitepackage:assets-theme>`.
 
-After this tutorial you have created Fluid templates and split them into
+After this tutorial you will have created Fluid templates and split them into
 manageable pieces.
 
 ..  contents::
