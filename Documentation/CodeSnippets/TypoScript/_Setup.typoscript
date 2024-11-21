@@ -1,0 +1,2 @@
+@import 'EXT:my_site_package/Configuration/TypoScript/Setup/*.typoscript'
+@import 'EXT:my_site_package/Configuration/TypoScript/Setup/Navigation/*.typoscript'

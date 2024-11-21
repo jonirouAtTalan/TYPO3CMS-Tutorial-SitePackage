@@ -10,7 +10,7 @@ TypoScript setup
 In step :ref:`Minimal site package - The TYPO3 Fluid
 version <t3sitepackage:minimal-extension-fluid>` we placed all TypoScript into
 the site set, file
-:file:`packages/site-package/Configuration/Sets/SitePackage/setup.typoscript`.
+:file:`packages/my-site-package/Configuration/Sets/SitePackage/setup.typoscript`.
 
 In the following chapters we will need additional TypoScript setup
 configurations.
@@ -39,7 +39,7 @@ Then change the latter file to contain the following:
 ..  code-block:: typoscript
     :caption: Configuration/Sets/SitePackage/setup.typoscript
 
-    @import 'EXT:site_package/Configuration/TypoScript/Setup/pageview.typoscript'
+    @import 'EXT:my_site_package/Configuration/TypoScript/Setup/pageview.typoscript'
 
 Flush the caches and preview the page. The output should be unchanged.
 
@@ -52,7 +52,10 @@ We will create more TypoScript files in the next steps. We could import them
 file by file. But as the order will not matter we can import all of them via
 wildcard:
 
-.. include:: /CodeSnippets/TypoScript/Setup.rst.txt
+..  literalinclude:: /CodeSnippets/TypoScript/_Setup.typoscript
+    :language: typoscript
+    :caption: EXT:my_site_package/Configuration/Sets/SitePackage/setup.typoscript
+    :linenos:
 
 Only files from the folder directly will be imported. If you create subfolders
 later on you have to import them separately.
@@ -68,7 +71,7 @@ Your :path:`Configuration` directory should now have the following structure:
     :level: 4
     :show-file-icons: true
 
-    *   EXT:my_sitepackage/Configuration
+    *   EXT:my_site_package/Configuration
 
         *   Sets
 
